@@ -1,4 +1,4 @@
 # Облачные и туманные вычисления
-Backend проекта по предмету "Облачные и туманные вычисления", 7 семестр, 4 курс
-Приложение было выложено на Yandex Cloud с использованием сервисов Compute Cloud, Yandex Managed Service for PostgreSQL, Smart Captcha
-Описание можно посмотреть в pdf-файлах <i>3 этап</i> и <i>4 этап</i>.
+<p>Backend проекта по предмету "Облачные и туманные вычисления", 7 семестр, 4 курс</p>
+<p>Приложение было выложено на Yandex Cloud с использованием сервисов Compute Cloud, Yandex Managed Service for PostgreSQL, Smart Captcha</p>
+<p>Описание можно посмотреть в pdf-файлах <i>3 этап</i> и <i>4 этап</i>.</p>
