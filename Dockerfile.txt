@@ -1,0 +1,8 @@
+FROM maven:3.8.4-openjdk-17 as build
+COPY src src
+COPY pom.xml .
+RUN mvn clean package
+
+FROM openjdk:17
+COPY --from=build /out/artifacts/genshinProg_jar/genshinProg.jar /out/artifacts/genshinProg_jar/genshinProg.jar
+ENTRYPOINT ["java","-jar","/out/artifacts/genshinProg_jar/genshinProg.jar"]
